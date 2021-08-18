@@ -54,8 +54,9 @@ public class StepDefinitions extends Utility {
         if (response == null) {
             Assertions.assertEquals(statusCode, 503);
         }
-
-        Assertions.assertEquals(statusCode, response.getStatusCode());
+        else {
+            Assertions.assertEquals(statusCode, response.getStatusCode());
+        }
     }
 
     @Given("applicant details with {string} {string} {string} which are not null")
