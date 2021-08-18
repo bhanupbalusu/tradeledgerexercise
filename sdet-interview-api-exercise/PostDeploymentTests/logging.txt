@@ -1,0 +1,1778 @@
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Boris",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:06 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		apiKey=LetMeIn
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Boris",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:06 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		apiKey=
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Angela",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:06 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1",
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		apiKey=DoNotLetMeIn
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Theresa",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:06 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		apiKey=dsds£4545&!^
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Name",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:06 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		apiKey=LetMeIn
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Boris",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:06 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		apiKey=LetMeIn
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Angela",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:06 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1",
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		apiKey=LetMeIn
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Theresa",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:06 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		apiKey=LetMeIn
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Name",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:06 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Boris",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:06 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Angela",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:06 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1",
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Theresa",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:06 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Name",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "boris",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "angela",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "theresa",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Name",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": " Boris ",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Theresa",
+    "email": " 123@abc.com ",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": " Angela ",
+    "email": "123@abc.com",
+    "address": " town cross center "
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": " Test Name ",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": null,
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Connection: close
+
+{
+    "timestamp": "2021-08-18T09:38:07.848+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "errors": [
+        {
+            "codes": [
+                "NotNull.applicant.name",
+                "NotNull.name",
+                "NotNull.java.lang.String",
+                "NotNull"
+            ],
+            "arguments": [
+                {
+                    "codes": [
+                        "applicant.name",
+                        "name"
+                    ],
+                    "arguments": null,
+                    "defaultMessage": "name",
+                    "code": "name"
+                }
+            ],
+            "defaultMessage": "must not be null",
+            "objectName": "applicant",
+            "field": "name",
+            "rejectedValue": null,
+            "bindingFailure": false,
+            "code": "NotNull"
+        }
+    ],
+    "message": "Validation failed for object='applicant'. Error count: 1",
+    "path": "/eligibility/check"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Boris",
+    "email": null,
+    "address": "town cross center"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Connection: close
+
+{
+    "timestamp": "2021-08-18T09:38:07.908+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "errors": [
+        {
+            "codes": [
+                "NotNull.applicant.email",
+                "NotNull.email",
+                "NotNull.java.lang.String",
+                "NotNull"
+            ],
+            "arguments": [
+                {
+                    "codes": [
+                        "applicant.email",
+                        "email"
+                    ],
+                    "arguments": null,
+                    "defaultMessage": "email",
+                    "code": "email"
+                }
+            ],
+            "defaultMessage": "must not be null",
+            "objectName": "applicant",
+            "field": "email",
+            "rejectedValue": null,
+            "bindingFailure": false,
+            "code": "NotNull"
+        }
+    ],
+    "message": "Validation failed for object='applicant'. Error count: 1",
+    "path": "/eligibility/check"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Boris",
+    "email": "123@abc.com",
+    "address": null
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Connection: close
+
+{
+    "timestamp": "2021-08-18T09:38:07.959+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "errors": [
+        {
+            "codes": [
+                "NotNull.applicant.address",
+                "NotNull.address",
+                "NotNull.java.lang.String",
+                "NotNull"
+            ],
+            "arguments": [
+                {
+                    "codes": [
+                        "applicant.address",
+                        "address"
+                    ],
+                    "arguments": null,
+                    "defaultMessage": "address",
+                    "code": "address"
+                }
+            ],
+            "defaultMessage": "must not be null",
+            "objectName": "applicant",
+            "field": "address",
+            "rejectedValue": null,
+            "bindingFailure": false,
+            "code": "NotNull"
+        }
+    ],
+    "message": "Validation failed for object='applicant'. Error count: 1",
+    "path": "/eligibility/check"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": 123,
+    "email": 123,
+    "address": 123
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "Boris",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Connection: close
+
+{
+    "timestamp": "2021-08-18T09:38:08.130+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "errors": [
+        {
+            "codes": [
+                "NotNull.applicant.name",
+                "NotNull.name",
+                "NotNull.java.lang.String",
+                "NotNull"
+            ],
+            "arguments": [
+                {
+                    "codes": [
+                        "applicant.name",
+                        "name"
+                    ],
+                    "arguments": null,
+                    "defaultMessage": "name",
+                    "code": "name"
+                }
+            ],
+            "defaultMessage": "must not be null",
+            "objectName": "applicant",
+            "field": "name",
+            "rejectedValue": null,
+            "bindingFailure": false,
+            "code": "NotNull"
+        }
+    ],
+    "message": "Validation failed for object='applicant'. Error count: 1",
+    "path": "/eligibility/check"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Connection: close
+
+{
+    "timestamp": "2021-08-18T09:38:08.269+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "Required request body is missing: public com.tradeledger.cards.eligibility.domain.Eligibility com.tradeledger.cards.eligibility.rest.EligibilityController.checkEligibility(com.tradeledger.cards.eligibility.domain.Applicant)",
+    "path": "/eligibility/check"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Boris",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Angela",
+    "email": "@yahoo.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1",
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Theresa",
+    "email": "user#domain.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Name",
+    "email": ".abcdef",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Name",
+    "email": " ",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:07 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Boris",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Angela",
+    "email": "x@yahoo.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1",
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Theresa",
+    "email": "user@domain.co.uk",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Name",
+    "email": "test@duck.io",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Boris",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Angela",
+    "email": "@yahoo.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1",
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Theresa",
+    "email": "user#domain.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Name",
+    "email": ".abcdef",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Name",
+    "email": " ",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Boris",
+    "email": "",
+    "address": ""
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Angela",
+    "email": "",
+    "address": ""
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1",
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Theresa",
+    "email": "",
+    "address": ""
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Name",
+    "email": "",
+    "address": ""
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Boris",
+    "email": "123@abc.com",
+    "address": ""
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Angela",
+    "email": "123@abc.com",
+    "address": ""
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1",
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Theresa",
+    "email": "123@abc.com",
+    "address": ""
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Name",
+    "email": "123@abc.com",
+    "address": ""
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Boris",
+    "email": "",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Angela",
+    "email": "",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C1",
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Theresa",
+    "email": "",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        "C2"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test Name",
+    "email": "",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "",
+    "email": "123@abc.com",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "",
+    "email": "123@abc.com",
+    "address": ""
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "",
+    "email": "",
+    "address": "town cross center"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:8080/eligibility/check
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "",
+    "email": "",
+    "address": ""
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Wed, 18 Aug 2021 09:38:08 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "eligibleCards": [
+        
+    ]
+}

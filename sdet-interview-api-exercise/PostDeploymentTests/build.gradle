@@ -1,0 +1,55 @@
+plugins {
+    id 'java'
+}
+
+group 'com.tradeledger'
+version '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'junit:junit:4.13.1'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.0'
+
+    //testCompile "io.cucumber:cucumber-junit:4.8.0"
+    testRuntime "org.junit.vintage:junit-vintage-engine:5.6.0"
+    testImplementation "io.cucumber:cucumber-junit-platform-engine:6.10.3"
+    testCompile "io.cucumber:cucumber-junit:6.10.3"
+    testImplementation 'io.cucumber:cucumber-java:6.10.3'
+    //testImplementation  "io.cucumber:cucumber-java:4.8.0"
+    testCompile "io.rest-assured:rest-assured:4.1.2"
+    compile "com.fasterxml.jackson.core:jackson-databind:2.10.1"
+    implementation "org.jetbrains:annotations-java5:15.0"
+    testCompile "io.cucumber:datatable:1.1.14"
+}
+
+
+/*dependencies {
+    compile(
+            "com.fasterxml.jackson.core:jackson-databind:2.10.1",
+            "org.jetbrains:annotations-java5:15.0"
+    )
+    testCompile(
+            "io.cucumber:cucumber-junit:4.8.0",
+            "io.rest-assured:rest-assured:4.1.2",
+            "io.cucumber:datatable:1.1.14"
+    )
+    testImplementation(
+            'junit:junit:4.12',
+            'org.junit.jupiter:junit-jupiter-api:5.6.0',
+            "io.cucumber:cucumber-java:4.8.0"
+    )
+    testRuntime(
+            'org.junit.jupiter:junit-jupiter-engine:5.4.2',
+            'org.junit.vintage:junit-vintage-engine:5.4.2'
+    )
+}*/
+
+test {
+    useJUnitPlatform(){
+
+    }
+}
