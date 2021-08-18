@@ -1,6 +1,4 @@
-Readme:
-
-Requirement Analysis:
+# Requirement Analysis:
 
 - When an applicant submits name, email and address related details, then the server must respond with the credit cards 
 that applicant is eligible for.
@@ -11,7 +9,7 @@ that applicant is eligible for.
     |Theresa	|C2				|
     |Test Name	|				|
 	
-Assumptions:
+## Assumptions:
 
 As the requirement is unclear I made the following assumptions while preparing the testcases:
 
@@ -31,10 +29,9 @@ When applicant submits name, email and address related details:
 - @TestEleven:	where applicant name is empty string then it should return 400 (Bad Request)
 
 
-Comments:
+## Comments:
 - I am used to maven so I initially developed this exercise in maven. later when I tried to convert into gradle I faced few issues related to
 the junit dependencies. It took ample amount of time to sort it out.
 - At present in the checkin code, I am using both junit4 and junit5 dependencies.
 - Because of this, the annotation CucumberOptions which is declared in the test runner class is not taking tags parameters.
 - If I use @Cucumber annotation using junit5 instead junit4 then test are not getting recognized.
-
